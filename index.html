@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Panier</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="structure">
+        <h1>Panier</h1>
+        <table id="table">
+          <thead>
+            <tr>
+              <th>Produit</th>
+              <th>Quantité</th>
+              <th>Price unitaire</th>
+              <th>Sous total</th>
+            </tr>
+          </thead>
+          <tbody id="all_products">
+            <tr>
+              <td class="product">
+                <img src="acc//photoacc//powerpank.jpg" />
+
+                <div>
+                  <h3>Powerpank</h3>
+                  <a class="remove" id="1">Supprimer</a>
+                </div>
+              </td>
+
+              <td class="quantity">
+                <button class="qty-minus" id="1">-</button>
+                <input
+                  type="text"
+                  readonly
+                  placeholder="Unit price"
+                  class="qty"
+                  value="1"
+                />
+                <button class="qty-plus" id="1">+</button>
+              </td>
+              <td class="price">15000 DA</td>
+              <td class="subtotal">15000 DA</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="total">Total : <span id="total_display">0 DA</span></div>
+        <div class="commander">
+          <button
+            onclick="window.location.href = 'formulaire.html'"
+            type="button"
+            id="add_button"
+          >
+            commander
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/dom.js"></script>
+  </body>
+</html>

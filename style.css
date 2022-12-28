@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 4em;
+}
+
+p,
+button,
+input {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  padding: 5px 10px;
+  margin: 1px;
+  cursor: pointer;
+}
+/*.qty-minus {
+ 
+}
+.subtotal {
+  color: hsl(233, 47%, 7%);
+  font-weight: bold;
+}*/
+
+.qty {
+  height: 3rem;
+  width: 6rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 1rem;
+  padding: 0.3rem;
+}
+/*.qty-plus {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  margin-left: 50px;
+}
+*/
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  background-color: #fff;
+  padding: 0px 200px 0px 200px !important;
+}
+
+#total_display {
+  color: hsl(233, 47%, 7%);
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+#add_button {
+  background: hsl(233, 47%, 7%);
+  border: 2px solid hsl(233, 47%, 7%);
+  margin: 1rem 0rem;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 0.8rem;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  padding: 5px 20px 5px 20px;
+}
+
+table,
+th,
+td {
+  color: rgb(93, 90, 90);
+  padding: 0px 40px 0px 40px;
+
+  border-bottom: 1px solid #e1dddd;
+}
+
+table tbody {
+  background-color: #fff;
+  color: rgba(15, 15, 15, 0.5);
+}
+
+tbody button {
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  border: 0.1px solid #ccc;
+  color: #010101;
+  border-radius: 50%;
+  text-align: center;
+  padding: 1px 8px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 55px;
+  box-shadow: 0px 0.5px 2px 0.5px #b4b2b2;
+}
+
+tbody button:hover {
+  background-color: hsla(0, 0%, 100%, 0.736);
+  transform: scale(1.1);
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+#price_product {
+  width: 100px;
+}
+
+/*.container {
+  width: 90%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}*/
+
+.structure {
+  width: 80%;
+  padding: 0px;
+  margin: 30px 50px 30px 50px;
+}
+
+.remove {
+  color: red;
+  cursor: pointer;
+}
+img {
+  width: 150px;
+  height: 140px;
+  margin: 0px 70px 0px 0px;
+}
+h1 {
+  margin-left: 100px;
+}
+table thead tr th {
+  border-bottom: 3px solid #d5d0d0;
+}
+.total {
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.commander {
+  margin-left: 300px;
+}
